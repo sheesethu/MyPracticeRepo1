@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-12-06T16:44:23 IST" name="Default suite" finished-at="2025-12-06T16:44:47 IST" duration-ms="23918">
+    <groups>
+      <group name="smoke">
+        <method signature="TestUser.ts2()[pri:2, instance:MavenTestNgPackage.TestUser@1ed4ae0f]" name="ts2" class="MavenTestNgPackage.TestUser"/>
+        <method signature="TestUser.ts1()[pri:3, instance:MavenTestNgPackage.TestUser@1ed4ae0f]" name="ts1" class="MavenTestNgPackage.TestUser"/>
+      </group> <!-- smoke -->
+    </groups>
+    <test started-at="2025-12-06T16:44:23 IST" name="Default test" finished-at="2025-12-06T16:44:47 IST" duration-ms="23918">
+      <class name="MavenTestNgPackage.TestUser">
+        <test-method is-config="true" signature="launchApp()[pri:0, instance:MavenTestNgPackage.TestUser@1ed4ae0f]" started-at="2025-12-06T16:44:23 IST" name="launchApp" finished-at="2025-12-06T16:44:33 IST" duration-ms="9165" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApp -->
+        <test-method signature="ts3()[pri:1, instance:MavenTestNgPackage.TestUser@1ed4ae0f]" started-at="2025-12-06T16:44:33 IST" name="ts3" description="Login FB" finished-at="2025-12-06T16:44:33 IST" duration-ms="303" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ts3 -->
+        <test-method is-config="true" signature="close()[pri:0, instance:MavenTestNgPackage.TestUser@1ed4ae0f]" started-at="2025-12-06T16:44:33 IST" name="close" finished-at="2025-12-06T16:44:33 IST" duration-ms="264" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method is-config="true" signature="launchApp()[pri:0, instance:MavenTestNgPackage.TestUser@1ed4ae0f]" started-at="2025-12-06T16:44:33 IST" name="launchApp" finished-at="2025-12-06T16:44:40 IST" duration-ms="6626" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApp -->
+        <test-method signature="ts2()[pri:2, instance:MavenTestNgPackage.TestUser@1ed4ae0f]" started-at="2025-12-06T16:44:40 IST" name="ts2" description="Verify elements are enabled" finished-at="2025-12-06T16:44:40 IST" duration-ms="45" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ts2 -->
+        <test-method is-config="true" signature="close()[pri:0, instance:MavenTestNgPackage.TestUser@1ed4ae0f]" started-at="2025-12-06T16:44:40 IST" name="close" finished-at="2025-12-06T16:44:40 IST" duration-ms="241" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method is-config="true" signature="launchApp()[pri:0, instance:MavenTestNgPackage.TestUser@1ed4ae0f]" started-at="2025-12-06T16:44:40 IST" name="launchApp" finished-at="2025-12-06T16:44:47 IST" duration-ms="6914" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApp -->
+        <test-method signature="ts1()[pri:3, instance:MavenTestNgPackage.TestUser@1ed4ae0f]" started-at="2025-12-06T16:44:47 IST" name="ts1" description="Verify elements are displayed" finished-at="2025-12-06T16:44:47 IST" duration-ms="74" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ts1 -->
+        <test-method is-config="true" signature="close()[pri:0, instance:MavenTestNgPackage.TestUser@1ed4ae0f]" started-at="2025-12-06T16:44:47 IST" name="close" finished-at="2025-12-06T16:44:47 IST" duration-ms="223" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- MavenTestNgPackage.TestUser -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

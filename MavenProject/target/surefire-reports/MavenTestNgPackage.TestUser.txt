@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: MavenTestNgPackage.TestUser
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 24.83 s -- in MavenTestNgPackage.TestUser

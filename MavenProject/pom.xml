@@ -1,0 +1,77 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>MavenTestNgPackage</groupId>
+  <artifactId>MavenProject</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  
+  <dependencies>
+	<!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java -->
+<dependency>
+    <groupId>org.seleniumhq.selenium</groupId>
+    <artifactId>selenium-java</artifactId>
+    <version>4.32.0</version>
+</dependency>
+
+ <!-- https://mvnrepository.com/artifact/org.testng/testng -->
+<dependency>
+    <groupId>org.testng</groupId>
+    <artifactId>testng</artifactId>
+    <version>7.9.0</version>
+    <scope>test</scope>
+</dependency>
+
+<dependency>
+    <groupId>org.apache.maven.plugins</groupId>
+    <artifactId>maven-surefire-plugin</artifactId>
+    <version>3.5.0</version>
+</dependency>
+
+   </dependencies>
+   
+   <properties>
+        <!-- Define Standard Java/Maven Properties -->
+        <maven.compiler.source>1.8</maven.compiler.source>
+        <maven.compiler.target>1.8</maven.compiler.target>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    </properties>
+
+    <build>
+        <plugins>
+            <!-- 1. Configuration for COMPILING the code -->
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <version>3.11.0</version> <!-- Match the version you see in your log -->
+                <configuration>
+                    <!-- These parameters are CORRECTLY placed here -->
+                    <source>${maven.compiler.source}</source>
+                    <target>${maven.compiler.target}</target>
+                    <compilerArgs>
+                        <!-- Any specific compiler arguments you had previously -->
+                    </compilerArgs>
+                </configuration>
+            </plugin>
+
+            <!-- 2. Configuration for RUNNING TESTS (Surefire knows about 'testSourceDirectory', not 'source') -->
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-surefire-plugin</artifactId>
+                <version>3.5.0</version> <!-- Match the version you see in your log -->
+                <configuration>
+                    <!-- Configure Surefire specific things here, e.g., exclusions, test suites -->
+                    <excludes>
+                        <exclude>SomeSpecificTest.java</exclude>
+                    </excludes>
+                </configuration>
+            </plugin>
+
+            <!-- 3. (Optional) Resources Plugin configuration -->
+             <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-resources-plugin</artifactId>
+                <version>3.3.1</version>
+                <!-- The encoding property set globally will fix the warning here automatically -->
+            </plugin>
+        </plugins>
+    </build>
+</project>

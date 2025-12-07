@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-12-06T16:40:17 IST" name="Surefire suite" finished-at="2025-12-06T16:40:41 IST" duration-ms="24385">
+    <groups>
+      <group name="smoke">
+        <method signature="TestUser.ts2()[pri:2, instance:MavenTestNgPackage.TestUser@4e268090]" name="ts2" class="MavenTestNgPackage.TestUser"/>
+        <method signature="TestUser.ts1()[pri:3, instance:MavenTestNgPackage.TestUser@4e268090]" name="ts1" class="MavenTestNgPackage.TestUser"/>
+      </group> <!-- smoke -->
+    </groups>
+    <test started-at="2025-12-06T16:40:17 IST" name="Surefire test" finished-at="2025-12-06T16:40:41 IST" duration-ms="24385">
+      <class name="MavenTestNgPackage.TestUser">
+        <test-method is-config="true" signature="launchApp()[pri:0, instance:MavenTestNgPackage.TestUser@4e268090]" started-at="2025-12-06T16:40:17 IST" name="launchApp" finished-at="2025-12-06T16:40:26 IST" duration-ms="9016" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApp -->
+        <test-method signature="ts3()[pri:1, instance:MavenTestNgPackage.TestUser@4e268090]" started-at="2025-12-06T16:40:26 IST" name="ts3" description="Login FB" finished-at="2025-12-06T16:40:26 IST" duration-ms="313" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ts3 -->
+        <test-method is-config="true" signature="close()[pri:0, instance:MavenTestNgPackage.TestUser@4e268090]" started-at="2025-12-06T16:40:26 IST" name="close" finished-at="2025-12-06T16:40:26 IST" duration-ms="222" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method is-config="true" signature="launchApp()[pri:0, instance:MavenTestNgPackage.TestUser@4e268090]" started-at="2025-12-06T16:40:26 IST" name="launchApp" finished-at="2025-12-06T16:40:32 IST" duration-ms="6205" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApp -->
+        <test-method signature="ts2()[pri:2, instance:MavenTestNgPackage.TestUser@4e268090]" started-at="2025-12-06T16:40:32 IST" name="ts2" description="Verify elements are enabled" finished-at="2025-12-06T16:40:33 IST" duration-ms="56" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ts2 -->
+        <test-method is-config="true" signature="close()[pri:0, instance:MavenTestNgPackage.TestUser@4e268090]" started-at="2025-12-06T16:40:33 IST" name="close" finished-at="2025-12-06T16:40:33 IST" duration-ms="226" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method is-config="true" signature="launchApp()[pri:0, instance:MavenTestNgPackage.TestUser@4e268090]" started-at="2025-12-06T16:40:33 IST" name="launchApp" finished-at="2025-12-06T16:40:41 IST" duration-ms="7998" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApp -->
+        <test-method signature="ts1()[pri:3, instance:MavenTestNgPackage.TestUser@4e268090]" started-at="2025-12-06T16:40:41 IST" name="ts1" description="Verify elements are displayed" finished-at="2025-12-06T16:40:41 IST" duration-ms="80" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ts1 -->
+        <test-method is-config="true" signature="close()[pri:0, instance:MavenTestNgPackage.TestUser@4e268090]" started-at="2025-12-06T16:40:41 IST" name="close" finished-at="2025-12-06T16:40:41 IST" duration-ms="217" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- MavenTestNgPackage.TestUser -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>
